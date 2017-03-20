@@ -43,7 +43,7 @@ $ git diff
 
 #####Tüm güncel değişiklikleri sonraki commite ekleme:
 ```
-$ git add
+$ git add .
 ```
 
 #####Sonraki commite &lt;dosyasındaki&gt; bazı değişikleri ekleme:
@@ -225,12 +225,12 @@ $ git merge <branch>
 ```
 
 #####Rebase your current HEAD onto &lt;branch&gt;:<br>
-######Don't rebase published commit!
+######Yayınlanan committen sonra rebase yapmayın!
 ```
 $ git rebase <branch>
 ```
 
-#####Rabase iptal etmek:
+#####Rebase iptal etmek:
 ```
 $ git rebase --abort
 ```
@@ -427,6 +427,12 @@ git flow hotfix finish VERSION
 
 ###Komutlar (Commands)
 <p align="center">
-	<img alt="Git" src="./Img/git-flow-commands.png" height="270" width="460">
+	<img alt="Git" src="../Img/git-flow-commands.png" height="270" width="460">
+</p>
+<hr>
+###Git flow şeması
+
+<p align="center">
+	<img alt="Git" src="../Img/git-flow-commands-without-flow.png">
 </p>
 <hr>
